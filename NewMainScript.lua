@@ -585,7 +585,7 @@ run(function()
                 AutoClickerCPS = AutoClicker:CreateSlider({
                     Name = 'CPS',
                     Min = 1,
-                    Max = 120000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+                    Max = 12,
                     Default = 12
                 })
                 AutoClickerBlocks = AutoClicker:CreateToggle({
