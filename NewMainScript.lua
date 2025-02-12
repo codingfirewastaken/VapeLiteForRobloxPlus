@@ -1600,13 +1600,13 @@ run(function()
             local VapeLabels = {}
             local VapeShadowLabels = {}
             local VapeLiteLogo = Drawing.new('Image')
-            VapeLiteLogo.Data = shared.VapeDeveloper and readfile('VapeLiteLogo.png') or game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeLiteForRoblox/main/VapeLiteLogo.png', true) or ''
+            VapeLiteLogo.Data = shared.VapeDeveloper and readfile('VapeLiteLogo.png') or game:HttpGet('https://raw.githubusercontent.com/codingfirewastaken/VapeLiteForRobloxPlus/main/VapeLiteLogo.png', true) or ''
             VapeLiteLogo.Size = Vector2.new(140, 64)
             VapeLiteLogo.ZIndex = 2
             VapeLiteLogo.Position = Vector2.new(3, 36)
             VapeLiteLogo.Visible = false
             local VapeLiteLogoShadow = Drawing.new('Image')
-            VapeLiteLogoShadow.Data = shared.VapeDeveloper and readfile('VapeLiteLogoShadow.png') or game:HttpGet('https://raw.githubusercontent.com/7GrandDadPGN/VapeLiteForRoblox/main/VapeLiteLogoShadow.png', true) or ''
+            VapeLiteLogoShadow.Data = shared.VapeDeveloper and readfile('VapeLiteLogoShadow.png') or game:HttpGet('https://raw.githubusercontent.com/codingfirewastaken/VapeLiteForRobloxPlus/main/VapeLiteLogoShadow.png', true) or ''
             VapeLiteLogoShadow.Size = Vector2.new(140, 64)
             VapeLiteLogoShadow.Position = Vector2.new(5, 38)
             VapeLiteLogoShadow.ZIndex = 1
