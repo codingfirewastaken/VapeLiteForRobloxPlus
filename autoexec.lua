@@ -4,5 +4,5 @@ delfile("vapelite.injectable.txt")
 if shared.VapeDeveloper then
     loadstring(readfile("vapelite.lua"))()
 else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/codingfirewastaken/VapeLiteForRobloxPlus/main/NewMainScript.lua", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/codingfirewastaken/VapeLiteForRobloxPlus/refs/heads/main/NewMainScript.lua", true))()
 end
